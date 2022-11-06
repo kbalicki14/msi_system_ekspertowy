@@ -56,11 +56,17 @@ function printDogList(){
 
     for(let i=0; i<countResult;i++){
         console.log(dogs[i]);
-        //document.write(dogs[i].name);
+
+        const h1 = document.createElement("h1");
+        const h3 = document.createElement("h3");
+        h1.innerHTML = dogs[i].name;
+        h3.innerHTML = dogs[i].descpirtion;
+        document.body.append(h1);
+        document.body.append(h3);
     }
 
     
-    document.getElementById("result").innerHTML = answer;
+    // document.getElementById("result").innerHTML = answer;
 
 }
 
