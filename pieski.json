@@ -1,0 +1,23 @@
+[
+    {
+        "name": "york",
+        "descpirtion": "dasdadadd",
+        "matchCode": [1,0,1,2,0],
+        "url":"link",
+        "score": 0
+    },
+    {
+        "name": "blabrador",
+        "descpirtion": "essa",
+        "matchCode": [1,1,1,1,1],
+        "url":"link",
+        "score": 0
+    },
+    {
+        "name": "sznaucer",
+        "descpirtion": "qwerert",
+        "matchCode": [0,0,1,2,0],
+        "url":"link", 
+        "score": 0
+    }
+]
