@@ -3,69 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <title>Rasy psów</title>
-    <!-- <script src="get-answers.js"></script> -->
+    <script src="https://cdn.tailwindcss.com"></script>
     <script type="module" src="app.js"></script>
 </head>
-<body class="bg-gray-800">
+<body class="bg-gray-800 text-white">
 
-<form id="form">
-    <h3>Jakiej wielkości pieska chciałbyś posiadać?</h3>
-    <br>
-    <input type="radio" name="question_1" value="0">
-    <label>0</label><br>
-    <input type="radio"  name="question_1" value="1">
-    <label>1</label><br>
-    <input type="radio" name="question_1" value="2">
-    <label>2</label>
-    <br>
-    <h3>Gdzie mieszkasz?</h3>
-    <br>
-    <input type="radio" name="question_2" value="0">
-    <label>0</label><br>
-    <input type="radio"  name="question_2" value="1">
-    <label>1</label><br>
-    <input type="radio" name="question_2" value="2">
-    <label>2</label>
-    <br>
-    <h3>czy massz uczulenie na sierść?</h3>
-    <br>
-    <input type="radio" name="question_3" value="0">
-    <label>0</label><br>
-    <input type="radio"  name="question_3" value="1">
-    <label>1</label><br>
-    <input type="radio" name="question_3" value="2">
-    <label>2</label>
-    <br>
-    <h3>Czy jestes osobą.. ?</h3>
-    <br>
-    <input type="radio" name="question_4" value="0">
-    <label>0</label><br>
-    <input type="radio"  name="question_4" value="1">
-    <label>1</label><br>
-    <input type="radio" name="question_4" value="2">
-    <label>2</label>
-    <br>
-    <h3>Jak duzo casu możesz zagospdarwoać na pielegnacie psa?</h3>
-    <br>
-    <input type="radio" name="question_5" value="0">
-    <label>0</label><br>
-    <input type="radio"  name="question_5" value="1">
-    <label>1</label><br>
-    <input type="radio" name="question_5" value="2">
-    <label>2</label>
-    <br>
+<nav class="bg-gray-900 py-1">
+    <div class="relative container mx-auto py-3">
+        <div class="justify-center flex">
+            <h1 class="text-4xl font-bold">Jaka rasa psa do Ciebie pasuje?</h1>
+        </div>
 
-    <button  type="submit">Zapisz</button>
-</form>
+    </div>
+</nav>
 
-<div id="">
-    <h1 id="result"></h1>
-    <h3 id="description"></h3>
 
+<div class="container flex-col items-center p-8">
+
+    <form id="form" class="space-y-2">
+        <h1 class="text-xl font-bold">Jakiej wielkości psa chcesz posiadać?</h1>
+        <input type="radio" name="question_1" value="0" id="q1">
+        <label for="q1">małego</label><br>
+        <input type="radio"  name="question_1" value="1" id="q2">
+        <label id="q2">średniego</label><br>
+        <input type="radio" name="question_1" value="2" id="q3">
+        <label id="q3">dużego</label>
+
+        <h1 class="text-xl font-bold py-2">Gdzie mieszkasz?</h1>
+        <input type="radio" name="question_2" value="0">
+        <label>dom jednorodzinny z ogrodem</label><br>
+        <input type="radio"  name="question_2" value="1">
+        <label>blok / kamienica</label><br>
+        <input type="radio" name="question_2" value="2">
+        <label>dom jednorodzinny bez ogrodu</label>
+
+        <h1 class="text-xl font-bold py-2">Czy masz uczulenie na sierść?</h1>
+        <input type="radio" name="question_3" value="1">
+        <label>tak</label><br>
+        <input type="radio"  name="question_3" value="0">
+        <label>nie</label><br>
+
+        <h1 class="text-xl font-bold py-2">Jesteś osobą: </h1>
+        <input type="radio" name="question_4" value="0">
+        <label>aktywną</label><br>
+        <input type="radio"  name="question_4" value="1">
+        <label>leniwą</label><br>
+        <input type="radio" name="question_4" value="2">
+        <label>wrażliwą</label>
+
+        <h1 class="text-xl font-bold py-2">Jak dużo czasu możesz zagospodarować na pielęgnacje psa?</h1>
+        <input type="radio" name="question_5" value="0">
+        <label>dużo</label><br>
+        <input type="radio"  name="question_5" value="1">
+        <label>tyle, ile będzie trzeba</label><br>
+        <input type="radio" name="question_5" value="2">
+        <label>nie mam czasu</label>
+        <br>
+        <br>
+
+        <button class="bg-gray-600 p-3 rounded-lg font-bold hover:bg-gray-400" type="submit">Pokaż wyniki</button>
+        <button class="bg-gray-600 p-3 rounded-lg font-bold hover:bg-gray-400" onClick="window.location.reload();">Rozwiąż test ponownie</button>
+
+    </form>
+
+    <div id="container" class="space-y-2 py-4"></div>
+    
 </div>
-
-
-
 
 </body>
 </html>

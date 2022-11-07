@@ -1,73 +1,61 @@
-
 import dogs from './pieski.json' assert {type: 'json'};
 
-let answer =[];
-
-const start = (params) => {
-    // nie przeładowuje strony 
-    params.preventDefault();
-
-    setAnswers();
-    console.log(answer);
-    
-    appStart();
-
-
-}
-
+const answer = [];
 const form = document.getElementById('form');
-form.addEventListener('submit', start );
 
+document.addEventListener('DOMContentLoaded', () => {
+    
+    form.addEventListener('submit', (event) => {
+        event.preventDefault();
+
+        setAnswers();
+        appStart();
+    });
+});
+
+function appStart(){
+    matchDogs();
+    sortDogs();
+    printDogList();
+}
 
 function setAnswers() {
     document.querySelectorAll('input:checked').forEach(element => {
         answer.push(element.value);
-
     });
-    
 }
 
 function matchDogs(){
     dogs.forEach(element => {
         for(let j=0; j<element.matchCode.length; j++){
-            if(element.matchCode[j] == answer[j]){
+            if(j == 2 && 1 == answer[j] ){
+                element.score += 4;
+            }
+            else if(element.matchCode[j] == answer[j]){
                 element.score++;
             }
         }
     });
 }
 
-
-function appStart(){
-
-    matchDogs();
-    console.log(dogs);
-    sortDogs();
-    printDogList();
-
-}
-
-
-
-
 function printDogList(){
-    //ile ma sie wystelitic dopasowan 
-    let countResult = 2;
+    const countResult = 2;
 
     for(let i=0; i<countResult;i++){
-        console.log(dogs[i]);
+        const container = document.getElementById('container');
 
-        const h1 = document.createElement("h1");
-        const h3 = document.createElement("h3");
-        h1.innerHTML = dogs[i].name;
-        h3.innerHTML = dogs[i].descpirtion;
-        document.body.append(h1);
-        document.body.append(h3);
+        const name = document.createElement("h1");
+        const desc = document.createElement("h3");
+        
+        name.innerHTML = dogs[i].name;
+        desc.innerHTML = dogs[i].description;
+
+        container.append(name);
+        name.classList.add('text-xl', 'font-bold');
+        container.append(desc);
     }
-
+    console.log(dogs);
     
-    // document.getElementById("result").innerHTML = answer;
-
 }
 
 function sortDogs(){

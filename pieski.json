@@ -1,58 +1,51 @@
 [
-    {
-        "name": "Yorkshire terrier",
-        "descpirtion": "Psy te pomimo niewielkich rozmiarów, odznaczają się niezwykłą odwagą i zadziornością. Bardzo mocno przywiązuje się do swojego opiekuna i przez to bywa o niego zazdrosny :), ale nie ma problemu z zostaniem przez jakiś czas samemu w domu. Ze względu na niepokaźną budowę, nie przepada za niedelikatnym traktowaniem.",
-        "matchCode": [0,1,1,1,0],
-        "url":"link",
-        "score": 0
-    },
-    {
-        "name": "Labrador retriever",
-        "descpirtion": "Bardzo popularny piesek, pewnie z tego względu że jako towarzysz człowieka, jest można powiedzieć idealnym psem. Bardzo łagodne usposobienie, predyspozycje do zooterapii oraz przyjacielskość to jego znaki szczególne. Bardzo dobrze sprawdza się w kontakcie z dziećmi. Ze względu na łagodność, niezbyt nadaje się na psa stróża, ale ruchliwość ma we krwi",
-        "matchCode": [2,0,0,2,1],
-        "url":"link",
-        "score": 0
-    },
-    {
-        "name": "Sznaucer",
-        "descpirtion": "Idealny pies dla wszystkich barberów, ze względu na charakterystyczną brodę i wąsy :D. Żywiołowy i wesoły, odpowiedni do tresury, gdyż lubi się uczyć nowych rzeczy. Jest zdecydowanie typem psa rodzinnego.",
-        "matchCode": [1,2,1,0,0],
-        "url":"link", 
-        "score": 0
-    },
-    {
-        "name": "Beagle",
-        "descpirtion": "Psy o bardzo charakterystycznych, bardzo uwielbianych przez wszystkich uszach, które aż się unoszą z radości co można zaobserwować w niektórych reklamach telewizyjnych. Średniej wielkości psy, podobnie jak poprzednik bardzo żywiołowy. Co ciekawe jest traktowany przez wielu jako pies rodzinny, spokojny a tak na prawdę pierwotnie został przysposobiony do polowań.",
-        "matchCode": [0,2,1,0,2],
-        "url":"link", 
-        "score": 0
-    },
-    {
-        "name": "Mops",
-        "descpirtion": "Psy o bardzo charakterystycznych, bardzo uwielbianych przez wszystkich uszach, które aż się unoszą z radości co można zaobserwować w niektórych reklamach telewizyjnych. Średniej wielkości psy, podobnie jak poprzednik bardzo żywiołowy. Co ciekawe jest traktowany przez wielu jako pies rodzinny, spokojny a tak na prawdę pierwotnie został przysposobiony do polowań.",
-        "matchCode": [0,1,0,1,1],
-        "url":"link", 
-        "score": 0
-    },
-    {
-        "name": "Owczarek Niemiecki",
-        "descpirtion": "Jest to pies bardzo przywiązujący się do właściciela, dzięki czemu jest wobec niego bardzo lojalny. Jest zwierzęciem o żywiołowym temperamencie i silnej budowie. Doskonały towarzysz aktywnego trybu życia oraz zabawy. Wrodzona odwaga sprawia, że jest doskonałym stróżem i obrońcą. Jest to rasa również idealna do tresury, lecz trzeba mu poświęcić wiele uwagi i troskliwości.",
-        "matchCode": [2,1,0,0,1],
-        "url":"link", 
-        "score": 0
-    },
-    {
-        "name": "Siberian Huskyi",
-        "descpirtion": "Husky syberyjski jest psem średniej wielkości, o pięknych, pełnych gracji ruchach. Stworzony został do pracy, dlatego nie zdradza oznak zmęczenia nawet po kilkukilometrowym biegu. Cechują go siła, wytrzymałość i szybkość. Ma gęste futro o różnorodnym umaszczeniu: od białego po czarny. Cechą wyróżniającą husky jest to, że psy tej rasy przybierają charakterystyczną maskę",
-        "matchCode": [1,1,0,0,1],
-        "url":"link", 
-        "score": 0
-    },
-    {
-        "name": "Owczarek australijski",
-        "descpirtion": "Pracując z pasterzami, nauczyły się bycia wrażliwymi na emocje oraz sygnały wysyłane przez człowieka. Wrażliwość więc mają w genach. Niestety wpływa to na duże przywiązanie do opiekuna, co czyli je jedną z ras najbardziej podatnych na lęk separacyjny",
-        "matchCode": [1,1,0,0,1],
-        "url":"link", 
-        "score": 0
-    }
+  {
+    "name": "Yorkshire terrier",
+    "description": "Psy te pomimo niewielkich rozmiarów, odznaczają się niezwykłą odwagą i zadziornością. Bardzo mocno przywiązuje się do swojego opiekuna i przez to bywa o niego zazdrosny :), ale nie ma problemu z zostaniem przez jakiś czas samemu w domu. Ze względu na niepokaźną budowę, nie przepada za niedelikatnym traktowaniem.",
+    "matchCode": [0,1,1,1,0],
+    "url":"link",
+    "score": 0
+  },
+  {
+    "name": "Labrador retriever",
+    "description": "Bardzo popularny piesek, pewnie z tego względu że jako towarzysz człowieka, jest idealnym psem. Bardzo łagodne usposobienie, predyspozycje do zooterapii oraz przyjacielskość to jego znaki szczególne. Bardzo dobrze sprawdza się w kontakcie z dziećmi. Ze względu na łagodność, niezbyt nadaje się na psa stróża, ale ruchliwość ma we krwi.",
+    "matchCode": [2,0,0,2,1],
+    "url":"link",
+    "score": 0
+  },
+  {
+    "name": "Sznaucer",
+    "description": "Idealny pies dla wszystkich barberów, ze względu na charakterystyczną brodę i wąsy :D. Żywiołowy i wesoły, odpowiedni do tresury, gdyż lubi się uczyć nowych rzeczy. Jest zdecydowanie typem psa rodzinnego.",
+    "matchCode": [1,2,1,0,0],
+    "url":"link",
+    "score": 0
+  },
+  {
+    "name": "Beagle",
+    "description": "Psy o bardzo charakterystycznych, bardzo uwielbianych przez wszystkich uszach, które aż się unoszą z radości co można zaobserwować w niektórych reklamach telewizyjnych. Średniej wielkości psy, podobnie jak poprzednik bardzo żywiołowy. Co ciekawe jest traktowany przez wielu jako pies rodzinny, spokojny a tak naprawdę pierwotnie został przysposobiony do polowań.",
+    "matchCode": [0,2,1,0,2],
+    "url":"link",
+    "score": 0
+  },
+  {
+    "name": "Owczarek niemiecki",
+    "description": "Jest to pies bardzo przywiązujący się do właściciela, dzięki czemu jest wobec niego bardzo lojalny. Jest zwierzęciem o żywiołowym temperamencie i silnej budowie. Doskonały towarzysz aktywnego trybu życia oraz zabawy. Wrodzona odwaga sprawia, że jest doskonałym stróżem i obrońcą. Jest to rasa również idealna do tresury, lecz trzeba mu poświęcić wiele uwagi i troskliwości.",
+    "matchCode": [2,0,0,0,1],
+    "url":"link",
+    "score": 0
+  },
+  {
+    "name": "Siberian Husky",
+    "description": "Husky syberyjski jest psem średniej wielkości, o pięknych, pełnych gracji ruchach. Stworzony został do pracy, dlatego nie zdradza oznak zmęczenia nawet po kilkukilometrowym biegu. Cechują go siła, wytrzymałość i szybkość. Ma gęste futro o różnorodnym umaszczeniu: od białego po czarny. Cechą wyróżniającą husky jest to, że psy tej rasy przybierają charakterystyczną maskę.",
+    "matchCode": [1,1,0,0,1],
+    "url":"link",
+    "score": 0
+  },
+  {
+    "name": "Owczarek australijski",
+    "description": "Pracując z pasterzami, nauczyły się bycia wrażliwymi na emocje oraz sygnały wysyłane przez człowieka. Wrażliwość więc mają w genach. Niestety wpływa to na duże przywiązanie do opiekuna, co czyli je jedną z ras najbardziej podatnych na lęk separacyjny.",
+    "matchCode": [1,1,0,0,1],
+    "url":"link",
+    "score": 0
+  }
 ]
