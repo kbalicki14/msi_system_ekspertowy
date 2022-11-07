@@ -1,0 +1,20 @@
+Pytania:
+1.Jakiej wielkości pieska chciałbyś posiadać?
+	a. małego -- 0
+	b. sredniego --1
+	c. dużego -- 2
+2.Gdzie mieszkasz?
+	a.domek jednorodzinny z ogrodem
+	b.blok/kamienica
+	c.domek jednorodzinny bez ogrodu
+3.czy massz uczulenie na sierść?
+	a. tak --1
+	b. nie --0
+4.Czy jestes osobą.. ?
+	a.aktywna 
+	b.leniwą
+	c.wrażliwą
+5.Jak duzo casu możesz zagospdarwoać na pielegnacie psa?
+	a.duzo
+	b.tyle i bedzie trzeba
+	c. nie mam czasu
